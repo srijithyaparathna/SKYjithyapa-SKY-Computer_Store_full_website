@@ -1,0 +1,70 @@
+
+  
+ /* styles.css */
+.bodyclass1 {
+  background-image: url('../HomePageAdmin/background.jpg');
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  height: 100%; /* This keeps the background fixed while scrolling */
+}
+
+  
+
+  .form {
+    border-radius: 40px;
+    margin-top: 100px;
+    /* margin-left: 600px; */
+    margin-bottom: 150px;
+    margin-left: 100px;
+    
+    width: 900px;
+    height: 900px;
+    background-color: rgb(14, 16, 16);
+    display: block;
+    flex-direction: column;
+    align-items: center; /* Optional: Center-align the form */
+    gap: 10px; /* Optional: Add some spacing between each input field */
+  }
+  
+  .form label {
+    color: white;
+    font-size: 18pt;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Optional: Add spacing between labels and inputs */
+  }
+  
+  .form input {
+    margin-left: 40px;
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 800px;
+  }
+  
+  .form button {
+    margin-top: 60px;
+    margin-left: 270px;
+    font-size: 25pt;
+    font-weight: 1000;
+    height: 80px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: #0652f5fa; /* Default background color */
+    color: #efdbdb; /* Default text color */
+    transition: background-color 0.3s, transform 0.3s;
+  
+    /* Apply styles when the button is hovered */
+    &:hover {
+      background-color: #187eea; /* New background color on hover */
+      transform: scale(1.1);
+      color: #060101; /* Increase size by 10% on hover */
+  }}
+

@@ -1,0 +1,29 @@
+.content-container{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .App{
+   
+  display: block;
+  
+  }
+  
+  
+  .content-container{
+    background: #050A30;
+  
+  }
+  
+  .bodyclass{
+    /* width: 2000px; */
+    width: 100%;
+    background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.85;
+
+    
+  
+  }

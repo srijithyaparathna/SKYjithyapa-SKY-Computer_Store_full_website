@@ -1,0 +1,102 @@
+ 
+    
+   .header {
+    position: sticky;
+  top: 0;
+  /* background-color: white; Set the background color you prefer for the sticky header */
+  z-index: 1; 
+    display: flex;
+    align-items: center;
+    /* max-width: 19800px; */
+    height: 180px;
+    margin: auto;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #050A30;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+@media (max-width: 198px) {
+  .header {
+   
+    font-size: 20px;
+  }
+}
+
+
+
+.header__left {
+    margin-left: 42px;
+    margin-top: 7;
+    margin-bottom: 7;
+
+    display: flex;
+
+
+}
+
+.header__left>img {
+
+    width: 184px;
+    height: 166px;
+    flex-shrink: 0;
+    border: 1px solid #050A30;
+    background: #050A30;
+    box-shadow: 0px 4px 4px 0px #050A30;
+
+}
+
+.header__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+.header__list{
+
+    display: flex;
+    
+    align-items: center;
+ 
+}
+
+.header__list > li {
+    
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.header__list> li > a {
+    text-decoration: none;
+    color: white;
+    width: 80px;
+}
+
+.header__right{
+   
+
+    margin-left: 500px;
+    
+ 
+}
+
+.searchbar{
+   display: flex;
+    align-items: center;
+
+}
+
+.inputbox{
+
+    margin-left: 10px;
+    height: 40px
+
+}

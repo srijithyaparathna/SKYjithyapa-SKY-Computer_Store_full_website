@@ -1,0 +1,27 @@
+.content-container{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .App{
+   
+  display: block;
+  
+  }
+  
+  
+  .content-container{
+  
+  }
+  
+  .bodyclass{
+    width: 2000px;
+    background-image: url('../HomePageAdmin/background.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.85;
+
+    
+  
+  }

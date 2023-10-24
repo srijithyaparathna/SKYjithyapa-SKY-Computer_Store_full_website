@@ -1,0 +1,98 @@
+
+
+/* App.css (or your preferred CSS file) */
+.placeorderbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../HomePageAdmin/background.jpg');
+  }
+  
+  .placeorderform {
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-left: 000px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 1200px;
+    background-color: rgb(14, 16, 16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .placeorderform h1 {
+    color: white;
+    font-size: 18pt;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .placeorderform label {
+    color: white;
+    font-size: 18pt;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 40px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .placeorderform input {
+    margin-left: 40px;
+    display: block;
+    margin-top: 0px;
+    height: 40px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 800px;
+  }
+  
+  .placeorderform ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .placeorderform ul li {
+    color: white;
+    font-size: 16pt;
+    margin-left: 40px;
+  }
+  
+  .placeorderform label:nth-child(2),
+  .placeorderform ul li {
+    margin-top: 10px;
+  }
+  
+  .placeorderform label:nth-child(5) {
+    margin-top: 60px;
+  }
+  
+  .placeorderform button {
+    margin-top: 60px;
+    margin-left: 330px;
+    font-size: 25pt;
+    font-weight: 1000;
+    height: 80px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: #0652f5fa;
+    color: #efdbdb;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .placeorderform button:hover {
+    background-color: #187eea;
+    transform: scale(1.1);
+    color: #060101;
+  }
+  
+  /* Add your custom CSS styles as needed */
+  
